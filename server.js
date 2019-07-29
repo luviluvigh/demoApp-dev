@@ -20,7 +20,7 @@ const db = config.MONGODB_URI;
 mongoose.connect(db, {
         useNewUrlParser: true
     }).then(() => console.log('MongoDB Connected..'))
-    .catch(err > console.log(err));
+    .catch(err => console.log(err));
 
 // App Port
 const PORT = config.PORT;
